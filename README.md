@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-React Portfolio, Multiple pages
+# React Portfolio, Multiple pages
 
 ## Features
 
