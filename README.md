@@ -22,7 +22,7 @@
 
 ① Replace the Images
     
-• In public folder there are two folders for images. Replace those images with yours and if your image have different name  then you need to change the src of img tag in perticular component
+• In public folder there are two folders for images. Replace those images with yours and if your image have different name  then you need to change the src of img tag in particular component
 
 ② edit App.css
     
