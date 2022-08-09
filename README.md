@@ -22,27 +22,27 @@
 
 ① Replace the Images
     
-    - In public folder there are two folders for images. Replace those images with yours and if your image have different name  then you need to change the src of img tag in perticular component
+• In public folder there are two folders for images. Replace those images with yours and if your image have different name  then you need to change the src of img tag in perticular component
 
 ② edit App.css
     
-    - In App.css follow the instructions for color theme and font family
+• In App.css follow the instructions for color theme and font family
 
 ③ Replace Informations
     
-    - In all components you need to replace my information with your's.
+• In all components you need to replace my information with your's.
 
-    - Replace Name, About, Skills, Resume, My Works
+• Replace Name, About, Skills, Resume, My Works
 
-    - Replace my contact information links with your's inside Sidebar component
+• Replace my contact information links with your's inside Sidebar component
 
-    - If you want to replace Icons then visit: https://react-icons.github.io/react-icons/
+• If you want to replace Icons then visit: https://react-icons.github.io/react-icons/
      
 
 ## Illustrations
 
-    - https://storyset.com/web
-    - https://storyset.com/nature
+•   https://storyset.com/web
+•   https://storyset.com/nature
 
 
 
