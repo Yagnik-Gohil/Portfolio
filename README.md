@@ -44,7 +44,7 @@
 •   https://storyset.com/web
 •   https://storyset.com/nature
 
-## Illustrations
+---
 
 After all necessary changes, you can commit and push your changes to your forked repository, and deploy however you like.
 
