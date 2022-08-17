@@ -5,7 +5,7 @@ function Resume() {
   return (
     <Fragment>
         <div className="col p-4"> 
-            <div className="p-4 bg-dark">
+            <div className="p-4 bg-dark slide-in-top">
                 
                 <div className="row">
                     <div className="col-6">
@@ -59,10 +59,10 @@ function Resume() {
                         <h4 className="ff-jose ls-2">PROFILE</h4>
                         <h1>
                             <a href="https://www.codechef.com/users/yagnik_003" target="/blank" className="text-white text-decoration-none mx-2">
-                                <SiCodechef/>
+                                <SiCodechef className="zoom-on-hover"/>
                             </a> 
                             <a href="https://www.hackerrank.com/Yagnik_003" target="/blank" className="text-white text-decoration-none mx-2">
-                                <SiHackerrank/>
+                                <SiHackerrank className="zoom-on-hover"/>
                             </a> 
                         </h1>
                     </div>
