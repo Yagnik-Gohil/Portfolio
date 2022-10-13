@@ -4,6 +4,7 @@ import {FiUser} from 'react-icons/fi'
 import {BsCode} from 'react-icons/bs'
 import {MdOutlineDashboard, MdOutlineContactPage, MdEmail} from 'react-icons/md'
 import {AiFillLinkedin, AiFillSkype, AiFillGithub, AiOutlineUnorderedList} from 'react-icons/ai'
+import {VscAccount} from 'react-icons/vsc'
 import {Link, NavLink} from "react-router-dom";
 
 function Sidebar() {
@@ -33,13 +34,13 @@ function Sidebar() {
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/resume" className="nav-link align-middle px-0 text-white">
-                                <AiOutlineUnorderedList className='fs-5'/> <span className="ms-1 d-none d-sm-inline ">Resume</span>
+                            <NavLink to="/mywork" className="nav-link align-middle px-0 text-white">
+                                <MdOutlineDashboard className='fs-5'/> <span className="ms-1 d-none d-sm-inline ">My Work</span>
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/mywork" className="nav-link align-middle px-0 text-white">
-                                <MdOutlineDashboard className='fs-5'/> <span className="ms-1 d-none d-sm-inline ">My Work</span>
+                            <NavLink to="/resume" className="nav-link align-middle px-0 text-white">
+                                <AiOutlineUnorderedList className='fs-5'/> <span className="ms-1 d-none d-sm-inline ">Resume</span>
                             </NavLink>
                         </li>
                     </ul>
@@ -57,6 +58,8 @@ function Sidebar() {
                             <li><a className="dropdown-item text-black" href="https://join.skype.com/invite/XcmpKERo7On2" target="/blank"><AiFillSkype className='fs-5'/> Skype</a></li>
                             <li> <hr className="dropdown-divider"/> </li>
                             <li><a className="dropdown-item text-black" href="https://github.com/Yagnik-Gohil" target="/blank"><AiFillGithub className='fs-5'/> Github</a></li>
+                            <li> <hr className="dropdown-divider"/> </li>
+                            <li><a className="dropdown-item text-black" href="https://yagnik-19.showwcase.com/" target="/blank"><VscAccount className='fs-5'/> Showwcase</a></li>
                         </ul>
                     </div>
                 </div>

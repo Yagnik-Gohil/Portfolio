@@ -176,6 +176,42 @@ function MyWork() {
                             </div>
                         
                     </div>
+                    <div className="col-md-4 text-center my-2">
+                        
+                        <div id="carouselExampleControls6" className="carousel slide my-1" data-bs-ride="carousel">
+                            <div className="carousel-inner">
+                                <div className="carousel-item active">
+                                <img src="../portfolio-images/tour-01.png" className="d-block w-100" alt="..."/>
+                                </div>
+                                <div className="carousel-item">
+                                <img src="../portfolio-images/tour-02.png" className="d-block w-100" alt="..."/>
+                                </div>
+                                <div className="carousel-item">
+                                <img src="../portfolio-images/tour-03.jpg" className="d-block w-100" alt="..."/>
+                                </div>
+                                <div className="carousel-item">
+                                <img src="../portfolio-images/tour-04.jpg" className="d-block w-100" alt="..."/>
+                                </div>
+                                <div className="carousel-item">
+                                <img src="../portfolio-images/tour-05.jpg" className="d-block w-100" alt="..."/>
+                                </div>
+                            </div>
+                            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls6" data-bs-slide="prev">
+                                <GrPrevious/>
+                                <span className="visually-hidden">Previous</span>
+                            </button>
+                            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls6" data-bs-slide="next">
+                                <GrNext/>
+                                <span className="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                            <h5 className="ff-jose my-1">Natours</h5>
+                            <div className="row d-flex justify-content-center">
+                                <a href="https://natour-yg.herokuapp.com/" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><BsLaptop/> Watch Live</a>
+                                <a href="https://github.com/Yagnik-Gohil/Natours" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><AiFillGithub/> Source Code</a>
+                            </div>
+                        
+                    </div>
                 </div>
                 
             </div>
